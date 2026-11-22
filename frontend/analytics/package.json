@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "test": "vitest run anomalies/anomalyModel.test.js src/anomaly_card.test.tsx",
     "stream:kafka": "node scripts/kafka-websocket-bridge.mjs"
